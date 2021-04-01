@@ -693,7 +693,7 @@ MonoBehaviour:
   run: 1
   jump: 1
   player: {fileID: 0}
-  forcejump: 1600
+  forcejump: 1500
   speed: 35
   max_speed: 50
   speedup: 0.1
