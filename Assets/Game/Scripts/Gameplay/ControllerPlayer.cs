@@ -39,10 +39,23 @@ public class ControllerPlayer : MonoBehaviour
                 rbPlayer.AddForce(player.transform.right * speed, ForceMode2D.Impulse);
             }
         }
+		if (Input.GetKeyDown(KeyCode.Space))
+        {
+             actionJump();
+        }
+		if (Input.GetKeyDown(KeyCode.Escape))
+        {
+             Application.Quit();
+        }
     }
 
     public void Jump()
     {
+        actionJump();
+    }
+	
+	private void actionJump()
+	{
         if(jump == true && run == true)
         {
             rbPlayer.AddForce(player.transform.up * forcejump, ForceMode2D.Impulse);
@@ -50,8 +63,8 @@ public class ControllerPlayer : MonoBehaviour
             //player.transform.position = new Vector2(x, y + speedjump * Time.deltaTime);
             jump = false;
         }
-        run = true;
-    }
+        run = true;		
+	}
 
     public void checkCollision(string tag)
     {
