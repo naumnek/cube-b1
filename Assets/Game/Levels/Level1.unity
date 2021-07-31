@@ -694,9 +694,9 @@ MonoBehaviour:
   jump: 1
   player: {fileID: 0}
   forcejump: 1500
-  speed: 35
-  max_speed: 50
-  speedup: 0.2
+  speed: 2.5
+  max_speed: 10
+  speedup: 0.12
   min_speedup: 0.01
   slowing: 0.001
 --- !u!1 &1114349764
