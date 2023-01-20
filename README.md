@@ -1,4 +1,4 @@
-# TestGame-1
+# cube-b1
 2D-Runner for WebGL.
 <p>Developed as: Own indie</a>
 <p>Gameplay: <a href="https://naumnek.itch.io/cube-b1" title="Play on itch.io">itch.io</a> 
